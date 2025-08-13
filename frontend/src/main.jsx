@@ -5,13 +5,6 @@ import App from "./App.jsx"
 import "./index.css"
 import { AuthProvider } from "./context/authContext.jsx"
 
-import process from "process"
-import { Buffer } from "buffer"
-
-window.global = window
-window.process = process
-window.Buffer = Buffer
-
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
